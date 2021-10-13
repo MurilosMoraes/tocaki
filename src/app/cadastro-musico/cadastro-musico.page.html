@@ -1,0 +1,21 @@
+<ion-content>
+  <div class="container-geral">
+    <ion-icon [routerLink]="['/lobby']" class="back" name="chevron-back-outline"></ion-icon>
+    <h1 class="title">
+      Preencha alguns dados para realizar seu cadastro
+    </h1>
+    <div style="margin-top: 50px;">
+      <ion-input placeholder="Nome Completo"> </ion-input>
+      <ion-input placeholder="CPF ou CNPJ"> </ion-input>
+      <ion-input placeholder="Telefone"> </ion-input>
+      <p class="aviso">
+        Este campo é obrigatório
+      </p>
+      <ion-input placeholder="Email"> </ion-input>
+    </div>
+
+    <div [routerLink]="['/codigo-musico']" class="btn-azul">
+      Próximo
+    </div>
+  </div>
+</ion-content>

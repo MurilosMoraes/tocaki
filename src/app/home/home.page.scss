@@ -1,27 +1,83 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.container-home{
+  margin: 30px 20px;
+  position: relative;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.flex-start{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.flex-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#container a {
-  text-decoration: none;
+.perfil{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 100px;
+  margin-right: 10px;
 }
+
+.nome{
+  font-size: 18px;
+  font-weight: 500;
+  color: #484848;
+}
+
+.moedas{
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.saldo{
+  font-size: 18px;
+  font-weight: 600;
+  color: #0C0CBB;
+}
+
+.container-images{
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.flex-images{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.images-bar{
+  width: 48%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.fixed{
+  background-color: #0C0CBB;
+  border-radius: 100px;
+  width: 80%;
+  margin-left: 5%;
+  height: 60px;
+  position: fixed;
+  bottom:40px;
+}
+
+.flex-icons{
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+

@@ -1,0 +1,217 @@
+<ion-content>
+  <div *ngIf="negocios" class="container-negociacoes">
+    <div class="flex">
+      <ion-icon [routerLink]="['/home']" style="margin-top: 10px;" class="back" name="chevron-back-outline"></ion-icon>
+      <h1 class="title-recarga">Negociações</h1>
+    </div>
+
+    <div style="margin-top: 20px;" class="flex-bet">
+      <div (click)="presentNegocios()" class="segment-selecionado">
+        Negociações
+      </div>
+      <div (click)="presentMatch()" class="segment">
+        Deu Match
+      </div>
+    </div>
+
+    <div style="margin-top: 20px;">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="6">
+            <img class="img-negocios" src="../../assets/bar-2.jpg" alt="">
+          </ion-col>
+          <ion-col size="6">
+            <h1 class="nome">Bar do Paulista</h1>
+            <div class="flex">
+              <div>
+                <ion-icon class="icon-time" name="time-sharp"></ion-icon>
+              </div>
+              <div>
+                <p class="time">
+                  0d 5h 22min
+                </p>
+              </div>
+            </div>
+            <div  [routerLink]="['/chat']"  class="btn-ver">
+              Ver
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+
+    <div style="margin-top: 20px;">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="6">
+            <img class="img-negocios" src="../../assets/bar-2.jpg" alt="">
+          </ion-col>
+          <ion-col size="6">
+            <h1 class="nome">Bar do Paulista</h1>
+            <div class="flex">
+              <div>
+                <ion-icon class="icon-time" name="time-sharp"></ion-icon>
+              </div>
+              <div>
+                <p class="time">
+                  0d 5h 22min
+                </p>
+              </div>
+            </div>
+            <div  [routerLink]="['/chat']"  class="btn-ver">
+              Ver
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+
+    <div style="margin-top: 20px;">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="6">
+            <img class="img-negocios" src="../../assets/bar-2.jpg" alt="">
+          </ion-col>
+          <ion-col size="6">
+            <h1 class="nome">Bar do Paulista</h1>
+            <div class="flex">
+              <div>
+                <ion-icon class="icon-time" name="time-sharp"></ion-icon>
+              </div>
+              <div>
+                <p class="time">
+                  0d 5h 22min
+                </p>
+              </div>
+            </div>
+            <div  [routerLink]="['/chat']"  class="btn-ver">
+              Ver
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+
+    <div style="margin-top: 20px;">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="6">
+            <img class="img-negocios" src="../../assets/bar-2.jpg" alt="">
+          </ion-col>
+          <ion-col size="6">
+            <h1 class="nome">Bar do Paulista</h1>
+            <div class="flex">
+              <div>
+                <ion-icon class="icon-time" name="time-sharp"></ion-icon>
+              </div>
+              <div>
+                <p class="time">
+                  0d 5h 22min
+                </p>
+              </div>
+            </div>
+            <div  [routerLink]="['/chat']"  class="btn-ver">
+              Ver
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </div>
+
+  <div *ngIf="match" class="container-negociacoes">
+
+    <div class="flex">
+      <ion-icon [routerLink]="['/home']" style="margin-top: 10px;" class="back" name="chevron-back-outline"></ion-icon>
+      <h1 class="title-recarga">Negociações</h1>
+    </div>
+
+    <div style="margin-top: 20px;" class="flex-bet">
+      <div (click)="presentNegocios()" class="segment">
+        Negociações
+      </div>
+      <div (click)="presentMatch()" class="segment-selecionado">
+        Deu Match
+      </div>
+    </div>
+    <div style="margin-top: 20px;">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="6">
+            <img class="img-negocios" src="../../assets/bar-2.jpg" alt="">
+          </ion-col>
+          <ion-col size="6">
+            <h1 class="nome">Bar do Paulista</h1>
+            <div class="btn-ver">
+              Avaliar
+            </div>
+
+            <div class="btn-ver-branco">
+              Cancelar
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+
+    <div style="margin-top: 20px;">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="6">
+            <img class="img-negocios" src="../../assets/bar-2.jpg" alt="">
+          </ion-col>
+          <ion-col size="6">
+            <h1 class="nome">Bar do Paulista</h1>
+            <div class="btn-ver">
+              Avaliar
+            </div>
+
+            <div class="btn-ver-branco">
+              Cancelar
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+
+    <div style="margin-top: 20px;">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="6">
+            <img class="img-negocios" src="../../assets/bar-2.jpg" alt="">
+          </ion-col>
+          <ion-col size="6">
+            <h1 class="nome">Bar do Paulista</h1>
+            <div class="btn-ver">
+              Avaliar
+            </div>
+
+            <div class="btn-ver-branco">
+              Cancelar
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+
+    <div style="margin-top: 20px;">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="6">
+            <img class="img-negocios" src="../../assets/bar-2.jpg" alt="">
+          </ion-col>
+          <ion-col size="6">
+            <h1 class="nome">Bar do Paulista</h1>
+            <div class="btn-ver">
+              Avaliar
+            </div>
+
+            <div class="btn-ver-branco">
+              Cancelar
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </div>
+</ion-content>

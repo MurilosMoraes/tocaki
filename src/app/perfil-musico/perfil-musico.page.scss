@@ -1,0 +1,107 @@
+.container-perfil {
+    margin: 20px 30px;
+}
+
+.title-recarga {
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.flex-bet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.back-edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    background-color: #0c0cbb;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.img-perfil {
+    width: 98%;
+    border-radius: 10px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.nome {
+    font-weight: 600;
+    font-size: 26px;
+    margin-left: 10px;
+}
+
+.sub {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.flex-images {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-y: scroll;
+    margin-top: 5px;
+    margin-right: -30px;
+}
+
+.imgs-carroussel {
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.plus {
+    background-color: #0c0cbb;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    color: #ffffff;
+}
+
+.add {
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.icones {
+    width: 40px !important;
+    object-fit: cover;
+}
+
+.infos {
+    font-size: 16px;
+    color: #484848;
+    margin-left: 20px;
+}
+
+.flex-infos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ion-grid{
+    margin-top: 20px;
+}

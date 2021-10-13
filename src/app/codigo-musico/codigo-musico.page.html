@@ -1,0 +1,39 @@
+<ion-content>
+  <div *ngIf="confirmar" class="container-geral">
+    <ion-icon [routerLink]="['/cadastro-musico']" class="back" name="chevron-back-outline"></ion-icon>
+    <h1 class="title">
+      Para confirmar seu cadastro, insira o código que te enviamos por SMS
+    </h1>
+
+    <div class="container-inputs">
+      <div class="inputs">
+        <ion-input type="text" maxLength="1" placeholder="0"></ion-input>
+      </div>
+      <div class="inputs">
+        <ion-input type="text" maxLength="1" placeholder="0"></ion-input>
+      </div>
+      <div class="inputs">
+        <ion-input type="text" maxLength="1" placeholder="0"></ion-input>
+      </div>
+      <div class="inputs">
+        <ion-input type="text" maxLength="1" placeholder="0"></ion-input>
+      </div>
+    </div>
+
+    <div (click)="showSucesso()" class="btn-azul">
+      Próximo
+    </div>
+  </div>
+
+  <div *ngIf="sucesso" class="total">
+    <div class="container-geral">
+      <img style="width: 80%; margin-left: 10%;" src="../../assets/check.svg" alt="">
+      <h1 class="text-imgs">
+        Tudo certo! <br> Vamos começar
+      </h1>
+    </div>
+    <div [routerLink]="['/preferencias-musico']" class="cta-go">
+      <ion-icon name="arrow-forward-outline"></ion-icon>
+    </div>
+  </div>
+</ion-content>

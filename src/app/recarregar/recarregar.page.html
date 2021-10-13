@@ -1,0 +1,91 @@
+<ion-content>
+  <div class="container-recarregar">
+    <div class="flex-between">
+      <div class="flex-start">
+        <div>
+          <img class="perfil" src="../../assets/perfil.jpg" alt="">
+        </div>
+        <div class="nome">
+          Eduardo
+        </div>
+      </div>
+
+      <div [routerLink]="['/recarregar']" class="flex-start">
+        <div>
+          <img class="moedas" src="../../assets/money.png" alt="">
+        </div>
+        <div>
+          <p class="saldo">
+            30
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top: 60px;">
+      <h1 class="title-recarga">
+        Suas moedas acabaram
+      </h1>
+
+      <div class="img-align">
+        <img class="img-adjust" src="../../assets/sad.png" alt="">
+      </div>
+
+
+      <h1 class="title-recarga">
+        Mas tá tudo bem! Dá uma olhada nos nossos planos :)
+      </h1>
+    </div>
+
+    <div style="margin-top:40px;">
+      <ion-slides class="slides-recarga" pager="true">
+        <ion-slide>
+          <div class="recarga-opt">
+            <div style="margin-top: 15px;" class="flex">
+              <img src="../../assets/money.png" alt="">
+              <p class="quantidade">
+                30
+              </p>
+            </div>
+            <p class="valor">R$30,00</p>
+          </div>
+        </ion-slide>
+        <ion-slide>
+          <div class="recarga-opt-laranja">
+            <div class="flex">
+              <img src="../../assets/money.png" alt="">
+              <p class="quantidade">
+                50
+              </p>
+            </div>
+            <p class="off">20% OFF</p>
+            <p class="valor">R$30,00</p>
+          </div>
+        </ion-slide>
+        <ion-slide>
+          <div class="recarga-opt">
+            <div class="flex">
+              <img src="../../assets/money.png" alt="">
+              <p class="quantidade">
+                80
+              </p>
+            </div>
+            <p class="off">20% OFF</p>
+
+            <p class="valor">R$30,00</p>
+          </div>
+        </ion-slide>
+      </ion-slides>
+    </div>
+
+
+    <div style="margin-top: 40px;">
+      <div class="btn-azul">
+        Comprar moedas
+      </div>
+      <div class="btn-branco" [routerLink]="['/home']">
+        Não, obrigado!
+      </div>
+    </div>
+  </div>
+</ion-content>

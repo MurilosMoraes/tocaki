@@ -1,0 +1,147 @@
+.container-recarregar {
+    margin: 30px 20px;
+    position: relative;
+}
+
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perfil {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.nome {
+    font-size: 18px;
+    font-weight: 500;
+    color: #484848;
+}
+
+.moedas {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.saldo {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0c0cbb;
+}
+
+.btn-azul {
+    margin-top: 20px;
+    background-color: #0c0cbb;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-branco {
+    margin-top: 20px;
+    background-color: #ffffff;
+    height: 45px;
+    border: 2px solid #0c0cbb;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0c0cbb;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.title-recarga {
+    font-size: 20px;
+    font-weight: 600;
+    color: #484848;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.img-align {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.img-adjust {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.slides-recarga {
+    width: 80%;
+    
+}
+
+.recarga-opt {
+    padding: 20px;
+    height: 150px;
+    width: 170px;
+    background-color: #FF49A2;
+    border-radius: 10px;
+
+}
+
+.recarga-opt-laranja {
+    padding: 20px;
+    height: 150px;
+    width: 170px;
+    background-color: #F15929;
+    border-radius: 10px;
+
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ion-slides {
+    --bullet-background: rgb(228, 228, 228);
+    --bullet-background-active: #ffffff;
+}
+
+.quantidade{
+    margin-left: 10px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.valor{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.off{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}

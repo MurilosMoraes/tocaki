@@ -1,0 +1,134 @@
+.container-preferencias {
+    width: 100%;
+    height: 220px;
+    border: 2px solid #e5e5e5;
+    margin-top: 24px;
+    padding: 10px;
+}
+
+.sub {
+    margin-top: 5px;
+    color: #484848;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+ion-checkbox {
+    --border-radius: 5px;
+    --border-width: 1px;
+    --border-color: #0c0cbb;
+    height: 24px;
+    width: 24px;
+    --checkmark-color: transparent;
+    --background-checked: #0c0cbb;
+    --border-color-checked: #0c0cbb;
+}
+
+.dia {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    margin-left: 10px;
+}
+
+.container-scroll {
+    overflow-x: auto;
+    height: 140px;
+}
+
+.cam {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #484848;
+}
+
+.textarea {
+    padding: 4px 10px;
+    border: 1px solid #e5e5e5;
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #484848;
+    height: 70px;
+}
+
+.btn-azul {
+    margin-top: 40px;
+    background-color: #0c0cbb;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.label {
+    color: #484848;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 14px;
+}
+
+.flex-inputs {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 2px 10px;
+    margin-top: 10px;
+}
+
+.inputs-row {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    padding: 2px 10px;
+    width: 45%;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.total {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cta-go {
+    display: flex;
+    background-color: #0c0cbb;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+}

@@ -1,0 +1,121 @@
+.container-header {
+    margin: 0 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0 10px 0;
+}
+
+.back-chat {
+    font-size: 30px;
+    color: #000;
+    margin-top: 14px;
+    margin-right: 16px;
+}
+
+.perfil {
+    margin-top: 14px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-right: 14px;
+}
+
+.container-content {
+    margin: 40px 20px;
+}
+
+.msg-tocaki {
+    background-color: #0c0cbb;
+    padding: 20px;
+    border-radius: 0 20px 20px 20px;
+    color: #ffffff;
+}
+
+.txt {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.msg-left {
+    background-color: #dcdcdc;
+    border-radius: 0 20px 20px 20px;
+    padding: 20px;
+    width: 70%;
+    margin: 5px 0;
+    color: #484848;
+    float: left;
+}
+
+.msg-right {
+    background-color: #f15929;
+    border-radius: 20px 0 20px 20px;
+    padding: 20px;
+    width: 70%;
+    display: block;
+    float: right;
+    margin: 5px 0;
+    color: #ffffff;
+}
+
+ion-footer {
+    --background: #ffffff;
+    color: #000000;
+}
+
+.text-area {
+    background-color: #4848482d;
+    margin: 10px;
+    height: 65px;
+}
+
+ion-textarea {
+    width: 60%;
+    padding: 2px 5px;
+    color: #000;
+}
+
+.flex-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.send {
+    background-color: #0c0cbb;
+    height: 40px;
+    margin: 0 10px;
+    border-radius: 5px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-send {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mic {
+    font-size: 24px;
+    color: #000000;
+    margin: 0 5px;
+}
+.cam {
+    font-size: 24px;
+    color: #000000;
+    margin: 0 5px;
+}

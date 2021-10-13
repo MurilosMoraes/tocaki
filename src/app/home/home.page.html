@@ -1,20 +1,61 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content>
+  <div class="container-home">
+    <div class="flex-between">
+      <div class="flex-start">
+        <div>
+          <img class="perfil" src="../../assets/perfil.jpg" alt="">
+        </div>
+        <div class="nome">
+          Eduardo
+        </div>
+      </div>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+      <div [routerLink]="['/recarregar']"  class="flex-start">
+        <div>
+          <img class="moedas" src="../../assets/moedas.png" alt="">
+        </div>
+        <div>
+          <p class="saldo">
+            30
+          </p>
+        </div>
+      </div>
+    </div>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <div class="container-images">
+      <div class="flex-images">
+        <img class="images-bar" [routerLink]="['/evento']" src="../../assets/bar-1.jpg" alt="">
+        <img class="images-bar" [routerLink]="['/evento']" src="../../assets/bar-2.jpg" alt="">
+      </div>
+
+      <div class="flex-images">
+        <img class="images-bar" [routerLink]="['/evento']" src="../../assets/bar-1.jpg" alt="">
+        <img class="images-bar" [routerLink]="['/evento']" src="../../assets/bar-2.jpg" alt="">
+      </div>
+
+      <div class="flex-images">
+        <img class="images-bar" [routerLink]="['/evento']" src="../../assets/bar-1.jpg" alt="">
+        <img class="images-bar" [routerLink]="['/evento']" src="../../assets/bar-2.jpg" alt="">
+      </div>
+
+      <div class="flex-images">
+        <img class="images-bar" [routerLink]="['/evento']" src="../../assets/bar-1.jpg" alt="">
+        <img class="images-bar" [routerLink]="['/evento']" src="../../assets/bar-2.jpg" alt="">
+      </div>
+
+      <div class="flex-images">
+        <img class="images-bar" [routerLink]="['/evento']" src="../../assets/bar-1.jpg" alt="">
+        <img class="images-bar" [routerLink]="['/evento']" src="../../assets/bar-2.jpg" alt="">
+      </div>
+
+    </div>
+
+    <div class="fixed">
+      <div class="flex-icons">
+        <img class="icons" (click)="showModalFiltros()" src="../../assets/settings.png" alt="">
+        <img class="icons" [routerLink]="['/negociacoes']" src="../../assets/chat.png" alt="">
+        <img class="icons" [routerLink]="['/perfil-musico']" src="../../assets/user.png" alt="">
+      </div>
+    </div>
   </div>
 </ion-content>

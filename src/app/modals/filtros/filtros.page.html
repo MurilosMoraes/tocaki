@@ -1,0 +1,84 @@
+<ion-content>
+  <div class="container-modal">
+    <div class="flex-modal">
+      <h1 class="title">Filtros</h1>
+      <ion-icon class="close" (click)="close()" name="close-outline"></ion-icon>
+    </div>
+
+
+
+    <div class="container-preferencias">
+      <h2 class="sub">
+        Escolha um ou mais estilos musicais
+      </h2>
+      <div class="container-scroll">
+        <div class="flex">
+          <ion-checkbox mode="md"></ion-checkbox>
+          <p class="dia">
+            MPB
+          </p>
+        </div>
+        <div class="flex">
+          <ion-checkbox mode="md"></ion-checkbox>
+          <p class="dia">
+            Rock 'n Roll'
+          </p>
+        </div>
+        <div class="flex">
+          <ion-checkbox mode="md"></ion-checkbox>
+          <p class="dia">
+            Sertanejo
+          </p>
+        </div>
+        <div class="flex">
+          <ion-checkbox mode="md"></ion-checkbox>
+          <p class="dia">
+            Pop Rock
+          </p>
+        </div>
+        <div class="flex">
+          <ion-checkbox mode="md"></ion-checkbox>
+          <p class="dia">
+            Estilo Musical
+          </p>
+        </div>
+        <div class="flex">
+          <ion-checkbox mode="md"></ion-checkbox>
+          <p class="dia">
+            Estilo Musical
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <p class="label">
+        Valor cobrado
+      </p>
+      <div class="flex-inputs">
+        <div class="inputs-row">
+          <ion-input placeholder="Min"></ion-input>
+        </div>
+        <div class="inputs-row">
+          <ion-input placeholder="Max"></ion-input>
+        </div>
+      </div>
+
+    </div>
+
+    <div>
+      <p class="label">
+        Raio de distância que atende
+      </p>
+      <div class="input">
+        <ion-input placeholder="Até 9km"></ion-input>
+      </div>
+
+    </div>
+
+    <div (click)="close()" class="btn-azul">
+      Buscar
+    </div>
+
+  </div>
+</ion-content>

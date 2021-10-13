@@ -1,0 +1,93 @@
+<ion-content>
+    <div>
+        <div [routerLink]="['/home']" class=voltar>
+            <ion-icon name="chevron-back-outline"></ion-icon>
+        </div>
+        <ion-slides class="slides" pager="true">
+            <ion-slide>
+                <img class="img-slides" src="../../assets/bar-1.jpg" alt="">
+            </ion-slide>
+            <ion-slide>
+                <img class="img-slides" src="../../assets/bar-2.jpg" alt="">
+            </ion-slide>
+            <ion-slide>
+                <img class="img-slides" src="../../assets/bar-1.jpg" alt="">
+            </ion-slide>
+        </ion-slides>
+    </div>
+
+    <div class="container-evento">
+        <div class="flex-bet">
+            <div>
+                <h1 class="title">
+                    Bar do Paulista
+                </h1>
+            </div>
+            <div>
+                <img class="block" src="../../assets/block.png" alt="">
+            </div>
+        </div>
+        <div>
+            <div class="flex">
+                <div>
+                    <img class="icones" src="../../assets/left-align.png" alt="">
+                </div>
+                <div>
+                    <p class="infos"><strong>Descritivo: </strong><span>Festa de salão em condomíno</span></p>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div>
+                    <img class="icones" src="../../assets/coin.png" alt="">
+                </div>
+                <div>
+                    <p class="infos"><strong>Valor hora: </strong><span>R$70,00</span></p>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div>
+                    <img class="icones" src="../../assets/distance.png" alt="">
+                </div>
+                <div>
+                    <p class="infos"><strong>Distância: </strong><span>0.9Km</span></p>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div>
+                    <img class="icones" src="../../assets/guitar.png" alt="">
+                </div>
+                <div>
+                    <p class="infos"><strong>Quantidade de Shows: </strong><span>25</span></p>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div>
+                    <img class="icones" src="../../assets/star.png" alt="">
+                </div>
+                <div>
+                    <p class="infos">Recomendado <span><strong>20</strong></span> vezes</p>
+                </div>
+            </div>
+        </div>
+
+        <div *ngIf="principal">
+            <div (click)="showEnviado()" class="btn-azul">
+                Enviar proposta
+            </div>
+            <div class="btn-branco">
+                Pular
+            </div>
+        </div>
+        <div *ngIf="enviado">
+            <div class="btn-laranja">
+                Proposta enviada
+            </div>
+        </div>
+
+
+    </div>
+</ion-content>

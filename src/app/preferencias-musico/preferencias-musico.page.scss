@@ -1,0 +1,66 @@
+.container-geral{
+    overflow-x: auto;
+}
+
+ion-checkbox {
+    --border-radius: 5px;
+    --border-width: 1px;
+    --border-color: #0c0cbb;
+    height: 24px;
+    width: 24px;
+    --checkmark-color: transparent;
+    --background-checked: #0c0cbb;
+    --border-color-checked: #0c0cbb;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+.flex-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.dia {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    margin-left: 10px;
+}
+
+.option{
+    border:1px solid #c4c4c4;
+    border-radius: 5px;
+    padding:5px;
+    width: 30%;
+    text-align: center;
+}
+
+.option-select{
+    border:2px solid #0c0cbb;
+    border-radius: 5px;
+    padding:5px;
+    width: 30%;
+    text-align: center;
+}
+
+
+.btn-azul {
+    margin-top: 40px;
+    background-color: #0c0cbb;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}

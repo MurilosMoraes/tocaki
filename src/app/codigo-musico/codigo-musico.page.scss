@@ -1,0 +1,58 @@
+.container-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+ion-input {
+    --padding-end:0 !important;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn-azul {
+    margin-top: 40px;
+    background-color: #0c0cbb;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+.total{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cta-go{
+    display: flex;
+    background-color: #0c0cbb;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+}
